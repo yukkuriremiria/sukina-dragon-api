@@ -23,7 +23,8 @@ running:
 `node app.js -server`
 
 でapi起動
-http://localhost:3000/generate?text=テスト/nてきすと&title=たいとる
+
+GET: http://localhost:3000/generate?text=テスト/nてきすと&title=たいとる
 
 `node app.js "てきすと\nテキスト" "たいとる"`
 
